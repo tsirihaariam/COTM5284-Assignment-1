@@ -1,0 +1,12 @@
+ul#nav li{
+    display: inline;
+}
+#title{color: rgb(235, 248, 53);text-align: center;}
+body{background-color:grey;font-style: initial; font-family: cursive;background-image: -webkit-linear-gradient(3.png);}
+#siz{height: 300px;width: 450
+  px;}
+#mine{color: rebeccapurple;text-align: center;background-color: rgb(3, 43, 12);}
+
+  #col{color: rgb(12, 12, 59);font-size: large;}
+  #center{text-align: center;padding: 40px;color: rgb(38, 65, 41);}
+  body{background-image:url('e.png');}
