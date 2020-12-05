@@ -5,8 +5,39 @@ ul#nav li{
 body{background-color:grey;font-style: initial; font-family: cursive;background-image: -webkit-linear-gradient(3.png);}
 #siz{height: 300px;width: 450
   px;}
-#mine{color: rebeccapurple;text-align: center;background-color: rgb(3, 43, 12);}
+#mine{color: rebeccapurple;text-align: center;background-color: rgb(194, 161, 100);}
 
   #col{color: rgb(12, 12, 59);font-size: large;}
   #center{text-align: center;padding: 40px;color: rgb(38, 65, 41);}
   body{background-image:url('e.png');}
+  .grid-container {
+    display: inline-grid;
+    grid-gap: 40px;
+  }
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .item2 {
+    width: 700px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  table {
+    font-family: arial, sans-serif;
+    /* border-collapse: collapse; */
+    border: 1px solid black;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
